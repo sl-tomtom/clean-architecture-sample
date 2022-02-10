@@ -4,6 +4,8 @@ using System.Threading.Tasks;
 
 using MediatR;
 
+using Tomtom.Shared.Result;
+
 namespace Tomtom.Application.Core
 {
     public abstract class RequestHandler<Q, R> : IRequestHandler<Q, Result<R>> where Q : Request<R>

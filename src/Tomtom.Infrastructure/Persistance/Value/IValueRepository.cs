@@ -12,11 +12,11 @@ namespace Tomtom.Infrastructure.Adapters.Value
     }
 
 
-    internal class ValueRepository : IValueRepository
+    internal class MemoryValueRepository : IValueRepository
     {
         private readonly ConcurrentDictionary<int, ValueDto> _concurrentDictionaries;
 
-        public ValueRepository()
+        public MemoryValueRepository()
         {
             _concurrentDictionaries = new ConcurrentDictionary<int, ValueDto>();
             _concurrentDictionaries.TryAdd(1, new ValueDto(1, "value 1"));

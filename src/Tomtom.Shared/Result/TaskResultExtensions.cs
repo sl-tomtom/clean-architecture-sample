@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace Tomtom.Application.Core
+using Tomtom.Shared.Result;
+
+namespace Tomtom.Shared.Result
 {
     public static class TaskResultExtensions
     {

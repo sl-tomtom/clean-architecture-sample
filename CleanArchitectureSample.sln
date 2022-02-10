@@ -1,19 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30621.155
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{79329347-AE9A-426F-8396-791A99BF0469}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7740D6E0-58BF-4323-AF23-343125616BAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tomtom.Presentation.WebApi", "src\Tomtom.Presentation.WebApi\Tomtom.Presentation.WebApi.csproj", "{44F7126E-67F9-4DBA-A39B-6ED25CBEF29E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tomtom.Presentation.WebApi", "src\Tomtom.Presentation.WebApi\Tomtom.Presentation.WebApi.csproj", "{44F7126E-67F9-4DBA-A39B-6ED25CBEF29E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tomtom.Infrastructure", "src\Tomtom.Infrastructure\Tomtom.Infrastructure.csproj", "{2CD4B032-5760-4AEE-A39D-8A9F6D456483}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tomtom.Infrastructure", "src\Tomtom.Infrastructure\Tomtom.Infrastructure.csproj", "{2CD4B032-5760-4AEE-A39D-8A9F6D456483}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tomtom.Application", "src\Tomtom.Application\Tomtom.Application.csproj", "{C35AFDEB-12E8-4A04-B313-447BB9249AED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tomtom.Domain", "src\Tomtom.Domain\Tomtom.Domain.csproj", "{85058CB7-347D-494D-80DD-273893EC7FB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tomtom.Domain", "src\Tomtom.Domain\Tomtom.Domain.csproj", "{85058CB7-347D-494D-80DD-273893EC7FB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tomtom.Shared", "src\Tomtom.Shared\Tomtom.Shared.csproj", "{EFFD3F69-7090-4E97-8573-95578C0678EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{85058CB7-347D-494D-80DD-273893EC7FB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85058CB7-347D-494D-80DD-273893EC7FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85058CB7-347D-494D-80DD-273893EC7FB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFFD3F69-7090-4E97-8573-95578C0678EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFFD3F69-7090-4E97-8573-95578C0678EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFFD3F69-7090-4E97-8573-95578C0678EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFFD3F69-7090-4E97-8573-95578C0678EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +52,7 @@ Global
 		{2CD4B032-5760-4AEE-A39D-8A9F6D456483} = {79329347-AE9A-426F-8396-791A99BF0469}
 		{C35AFDEB-12E8-4A04-B313-447BB9249AED} = {79329347-AE9A-426F-8396-791A99BF0469}
 		{85058CB7-347D-494D-80DD-273893EC7FB1} = {79329347-AE9A-426F-8396-791A99BF0469}
+		{EFFD3F69-7090-4E97-8573-95578C0678EB} = {79329347-AE9A-426F-8396-791A99BF0469}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D27AB84C-4115-4475-BCBE-E3907A6D4500}

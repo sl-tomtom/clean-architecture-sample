@@ -9,6 +9,7 @@ using FluentValidation;
 using MediatR;
 
 using Tomtom.Application.Core.Pipeline;
+using Tomtom.Shared.Result;
 
 namespace Tomtom.Application.Core.Behaviors
 {

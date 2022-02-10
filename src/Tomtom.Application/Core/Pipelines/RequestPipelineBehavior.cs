@@ -4,6 +4,8 @@ using System.Threading.Tasks;
 
 using MediatR;
 
+using Tomtom.Shared.Result;
+
 namespace Tomtom.Application.Core.Pipeline
 {
 

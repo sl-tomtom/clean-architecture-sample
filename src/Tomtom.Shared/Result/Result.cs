@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace Tomtom.Application.Core
+namespace Tomtom.Shared.Result
 {
-
     public class Result
     {
         protected readonly Exception p_error;
